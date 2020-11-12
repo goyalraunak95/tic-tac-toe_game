@@ -3,7 +3,7 @@
 // O is AI
 
 
-// Tic Tac Toe
+// Tic Tac Toe Matrix
 var tic_tac_toe = [
   [null, null, null],
   [null, null, null],
