@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    
+    <div class="board">
+      <table>
+        <tr>
+          <td class="cell" id="1"></td>
+          <td class="cell" id="2"></td>
+          <td class="cell" id="3"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="4"></td>
+          <td class="cell" id="5"></td>
+          <td class="cell" id="6"></td>
+        </tr>
+        <tr>
+          <td class="cell" id="7"></td>
+          <td class="cell" id="8"></td>
+          <td class="cell" id="9"></td>
+        </tr>
+      </table>
+      <div>
+        <button type="button" class="btn btn-success" id="Restart" style="cursor: pointer;" disabled>
+          Restart
+        </button>
+        <h3 id="message"></h3>
+      </div>
+    </div>
+
+    <script src="./sketch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+td {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 70px;
+    box-sizing: content-box;
+  }
+  .board {
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 100px;
+  }
+  table {
+    margin: 10px;
+    position: relative;
+    border-collapse: collapse;
+  }
+  
+  table tr:first-child td {
+    border-top: 0;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td:first-child {
+    border-left: 0;
+  }
+  table tr td:last-child {
+    border-right: 0;
+  }
+  button {
+    position: relative;
+    top: 100px;
+    left: 120px;
+  }
+  
+  .not-allowed {
+    cursor: not-allowed;
+  }
+  
+  #message{
+    text-align: center;
+  }
